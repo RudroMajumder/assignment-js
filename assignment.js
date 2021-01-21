@@ -54,20 +54,7 @@ var cost = hotelCost(50);
 console.log(cost);
 
 //============================function for megaFriend========================================
-// function megaFriend( friend ){
-//    var length = friend[0].length;
-//    var max = friends[0];
-//      for( var i = 0; i < friend.length; i++){
-//         var size = friend[i].length;
-//         if( size > length){
-//              max = friend[i];
-//              length = size;
-//          }
-//      }    return max; 
-//     }
-//  var friends = ['Rudro','Topu','amar nam hero alomer bap ','Jihan','amar nam hero alomer dada ','ABCDEFGHJIJJ','Mohiuddin','RAihan'];
-//  var result = megaFriend( friends);
-//  console.log(result);
+
 function megaFriend(friend){
     var length = friend[0].length;
     var max = friends[0];
