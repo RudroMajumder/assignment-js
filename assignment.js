@@ -68,6 +68,7 @@ function megaFriend(friend){
     }
     return max;
 }
-var friends = ['RUDRO', 'TOPU', 'HERO ALOM', 'JIHAN', 'IZHARUL','RAIHAN'];
+
+var friends = ['RUDRO', 'TOPU', 'HERO ALOM', 'HERO ALOM ER ABBU','JIHAN', 'IZHARUL','RAIHAN'];
 var result = megaFriend(friends);
 console.log(result);
