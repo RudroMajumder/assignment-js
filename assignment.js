@@ -59,11 +59,11 @@ function megaFriend( friend ){
     for( var i = 0; i < friend.length; i++){
         var size = friend[i].length;
         if( size > length){
-            var max = friend [i];
+            var max = friend[i];
+            return max;
         }
     }
-    return max;
 }
-var friends = ['A', 'AB', 'ABC', 'ABCD','ABCDEF', 'ABCDEFG', 'ABCDEFGH', 'ABCDEFGHI'];
+var friends = ['Rudro','amar nam hero alom','Topu','Jihan','ABCDEFGHJIJJ','Mohiuddin','RAihan'];
 var result = megaFriend( friends);
 console.log(result);
