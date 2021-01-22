@@ -57,7 +57,7 @@ console.log(cost);
 //============================function for megaFriend========================================
 function megaFriend(friend){
     if ( friend.length == 0){
-        console.log("ENTER NAMES OF YOUR FRIEND")
+        return("ENTER NAMES OF YOUR FRIEND");
     }
     else{
     var length = friend[0].length;
@@ -72,6 +72,6 @@ function megaFriend(friend){
     return max;
     }
 }
-var friends = [];
+var friends = ['RUDRO', 'JIHAN', 'RAIHAN','FARUK', 'RAHIMA'];
 var result = megaFriend(friends);
 console.log(result);
