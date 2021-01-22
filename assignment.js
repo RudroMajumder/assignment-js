@@ -9,7 +9,7 @@ function kilometerToMeter(kilo){
         return result;
     }
 } 
-var meter = kilometerToMeter(30);
+var meter = kilometerToMeter(Math.abs(-30));
 console.log(meter);
 
 //========================================function for calculating budget============================
@@ -22,7 +22,7 @@ function budgetCalculator( watch, phone, laptop){
         return total;
     }
 }
-var budget = budgetCalculator( 10, 10, 10);
+var budget = budgetCalculator(Math.abs( 10, 10, 10));
 console.log(budget);
 
 //=============================function for calculating hotel cost========================================
@@ -51,7 +51,7 @@ function hotelCost(days){
         return total;
     } 
 }
-var cost = hotelCost(40);
+var cost = hotelCost(Math.abs(-40) );
 console.log(cost);
 
 //============================function for megaFriend========================================
