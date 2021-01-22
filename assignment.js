@@ -58,18 +58,18 @@ console.log(cost);
 function megaFriend(friend){
     if ( friend.length == 0){
         return("ENTER NAMES OF YOUR FRIEND");
-    }
+    } 
     else{
-    var length = friend[0].length;
-    var max = friends[0];
-    for( var i =0; i < friend.length; i++){
-        var size = friend[i].length;
-        if( size > length ){
-            max = friend[i];
-            length = size;
-        }
-    }
-    return max;
+         var length = friend[0].length;
+         var max = friends[0];
+         for( var i =0; i < friend.length; i++){
+             var size = friend[i].length;
+             if( size > length ){
+                 max = friend[i];
+                 length = size;
+             }
+         }
+         return max;
     }
 }
 var friends = ['RUDRO', 'JIHAN', 'RAIHAN','FARUK', 'RAHIMA'];
